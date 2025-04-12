@@ -26,6 +26,7 @@ def calculator():
     a, b = get_input()
     print(f"\nYou entered: a = {a}, b = {b}")
     print(f"1. Addition: {add(a, b)}")
+    print(f"2. Subtraction: {subtract(a,b)}")
      print(f"3. Multpilcation: {multiply(a, b)}")
     
 
